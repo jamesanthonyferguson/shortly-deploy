@@ -23,6 +23,7 @@ db.once('open', function(){
     base_url: String,
     code: String,
     title: String,
+    userID: String,
     visits: {type: Number, default: 0}
   });
 
