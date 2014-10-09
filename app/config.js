@@ -58,7 +58,7 @@ db.once('open', function(){
     base_url: String,
     code: String,
     title: String,
-    visits: Number
+    visits: {type: Number, default: 0}
   });
 
   var usersSchema = mongoose.Schema({
